@@ -1,2 +1,30 @@
-# dio-desafio-github-primeiro-repositorio
-Desafio de projeto sobre Git/Github
+# Anotações importantes / Desafio de Projeto DIO
+
+Repositório para armazenar e compartilhar informações que estou aprendendo ao longo do projeto Potência Tech iFood - Desenvolvimento de Jogos, da  [Digital Inovation One](https://www.dio.me/).
+# Git & GitHub
+## 🧑‍💻 Comandos Importantes Git
+```
+ git init - Inicia o git no repositorio
+ git clone <URL> - Copia repositorio remoto
+ git status - Lista as modificações atuais do repositório 
+ git log - Lista histórico de commits
+ git add <nome-arquivo> - Adiciona o arquivo do palco(stage)
+ git reset <nome-arquivo> - Remove o arquivo do palco(stage)
+ git commit m"mensagem" - Realiza o commit das modificações
+ git branch - Lista todas as branch locais 
+ git branch <nome-da-branch> - Cria uma nova branch 
+ git checkout <nome-da-branch> - Entra na branch
+ git pull original <nome-da-branch> - Pucha as modificações
+ git push origin <nome-da-branch> - Envia as modificações para o repositorio remoto
+
+```
+
+
+## 💾 Downloads
+- [Download GIT](https://git-scm.com/downloads)
+- [Download GITHUB](https://desktop.github.com/)
+
+
+## 📖 Documentação
+- [Documentação Git](https://git-scm.com/doc)
+- [Documentação GitHub](https://docs.github.com/)
