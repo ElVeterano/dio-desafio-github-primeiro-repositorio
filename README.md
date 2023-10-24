@@ -34,8 +34,9 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
 # CSS
 
 # JAVASCRIPT
-## Comandos importantes 
+## Aprendendo 
 ```
  console.log('mensagem'); imprime uma mensagem
  let variavel = 10; o let cria uma variavel que pode mudar de valor conforme desejado
  const pi = 3.14; o const cria uma variavel de valor fixo, que nao podera ter seu valor alterado
+ operadores matemáticos = +, -, *, /.
