@@ -40,6 +40,6 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  let variavel = 10; o let cria uma variavel que pode mudar de valor conforme desejado
  const pi = 3.14; o const cria uma variavel de valor fixo, que nao podera ter seu valor alterado
  operadores matemáticos = +, -, *, /.
- operadores condicionais = > (maior que), < (menor que), >= (maior ou igual), <= (menor ou igual), == (igual), ! (diferente de).
+ operadores condicionais = > (maior que), < (menor que), >= (maior ou igual), <= (menor ou igual), === (igual), ! (diferente de), % (resto da divisão, multiplo de).
  fazendo comentario no código = /* (abrindo) e */ (fechando).
  console.log(variavel.toFixed(0 a 20)) = o toFixed fixa um numerode casas decimais e arredonda, por exemplo se for passado o valor dois em um numero 36.49787856757 oque seria mostrado para o usuario seria 36.50
