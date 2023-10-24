@@ -42,4 +42,4 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  operadores matemáticos = +, -, *, /.
  operadores condicionais = > (maior que), < (menor que), == (igual), ! (diferente de)
  fazendo comentario no código = /* (abrindo) e */ (fechando).
- variavel.** toFixed **
+ variavel. **toFixed** 
