@@ -36,10 +36,12 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
 # JAVASCRIPT
 ## Aprendendo 
 ```
- console.log('mensagem'); imprime uma mensagem
- let variavel = 10; o let cria uma variavel que pode mudar de valor conforme desejado
- const pi = 3.14; o const cria uma variavel de valor fixo, que nao podera ter seu valor alterado
- operadores matemáticos = +, -, *, /.
- operadores condicionais (booleans) = > (maior que), < (menor que), >= (maior ou igual), <= (menor ou igual), ==(igual, que ignora o tipo da variavel, podendo por exemplo ser 0 ou '0', === (igual absoluto, com o mesmo tipo de variavel, sem conversão implicita), ! (diferente de), % (resto da divisão, multiplo de).
- fazendo comentario no código = /* (abrindo) e */ (fechando).
- console.log(variavel.toFixed(0 a 20)) = o toFixed fixa um numerode casas decimais e arredonda, por exemplo se for passado o valor dois em um numero 36.49787856757 oque seria mostrado para o usuario seria 36.50
+ - console.log('mensagem'); imprime uma mensagem
+ - let variavel = 10; o let cria uma variavel que pode mudar de valor conforme desejado
+ - const pi = 3.14; o const cria uma variavel de valor fixo, que nao podera ter seu valor alterado
+ - operadores matemáticos = +, -, *, /.
+ - operadores condicionais (booleans) = > (maior que), < (menor que), >= (maior ou igual), <= (menor ou igual), ==(igual, que ignora o tipo da variavel, podendo por exemplo ser 0 ou '0', === (igual absoluto, com  o  mesmo tipo de variavel, sem conversão implicita), ! (diferente de), % (resto da divisão, multiplo de).
+ - fazendo comentario no código = /* (abrindo) e */ (fechando).
+ - console.log(variavel.toFixed(0 a 20)) = o toFixed fixa um numerode casas decimais e arredonda, por exemplo se for passado o valor dois em um numero 36.49787856757 oque seria mostrado para o usuario seria 36.50
+ - if (condicao) abre { , codigo, } fecha = (SE) somente executa as linhas de codigo do if SE as condições forem compativeis. else = (SENAO) caso o if nao seja compativel entao executa o else. else if = senao faça esse novo if . ! (negação (senao))
+ -
