@@ -53,7 +53,7 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
 // a partir da posição (pos) em direção ao fim da array. console.log(itensRemovidos);
 // ['Nabo', 'Rabanete']
 Copair um array : var copiar = frutas.slice();.
-  . Acessar um item (index) do Array exemplo: var primeiro = frutas[0]; var ultimo = frutas[frutas.length - 1];. Para ver o tamanho do array(lista) = console.log(alunos.length);. Para procurar a posição de um item especifico dentro da array : const pos = frutas.indexOf("Banana"); por exemplo < . Para percorrer o array com For (estrutura de repetição) : 
+  . Acessar um item (index) do Array exemplo: var primeiro = frutas[0]; var ultimo = frutas[frutas.length - 1];. Para ver o tamanho do array(lista) = console.log(alunos.length);. Para procurar a posição de um item especifico dentro da array : const pos = frutas.indexOf("Banana"); por exemplo < . Para percorrer o array com For (estrutura de repetição), deve-se criar uma variavel para servir como index que vai ser o controlador do número de repetições a serem feitas na lista por exemplo : for(let i = 0; i < array.lenght; i++) { código }.
 
 
 
