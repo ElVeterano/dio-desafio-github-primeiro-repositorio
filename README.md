@@ -33,6 +33,8 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
 
 # CSS
 - object-fit (propriedade para imagens). object-fit: fill;(padrão) ele estica ou diminui a imagem para fazer ela caber no container, porém geralmente a imagem fica distorcida. object-fit: contain; a imagem vai ser redimensionada para caber no container, sem distorcer(sem perder qualidade) porém pode nao ocupar todo o espaço do container. object-fit: cover; a imagem vai preencher todo o container, porém ao invés de ficar distorcida ela vai cortar o espaço da imagem que ultrapassar o espaço que o elemento tem, assim mantendo a qualidade da imagem, porém dependendo da imagem pode-se perder uma parte da imagem devido ao corte. object-fit: none; a imagem vai ignorar a altura e largura do elemento pai, assim tendo sua proporção de origem. object-fit: scale-down; ele vai escolher entre o countain e o none, qual das duas configurações vai ser a menor assim a aplicando. Altera a posição da img object-position: x y; podem ser %, pixels(px), left, top, center, right, bottom, etc.
+- background-image: url('...'); serve para utilizar uma imagem como background (todos os formatos de imagem sao aceitos ate gifs).
+- linear-gradient(purple, red) esse efeito aplica uma troca de cor no elemento, um efeito linear, idealmente usada do mesmo tom por exemplo um rosa claro e um rosa mais escuro (podem conter mais de duas cores).
 
 # JAVASCRIPT
 ## Aprendendo 
