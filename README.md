@@ -37,6 +37,7 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
 - linear-gradient(purple, red) esse efeito aplica uma troca de cor no elemento, um efeito linear, idealmente usada do mesmo tom por exemplo um rosa claro e um rosa mais escuro (podem conter mais de duas cores).
 - radial-gradient(purple, red) proximo do efeito linear porem em circulo.
 - repeat-linear-gradient ou repeat-radial-gradient sao outras funçoes de fundo cor, listras.
+- dica: da para colocar uma imagem sobre a outra.
 
 # JAVASCRIPT
 ## Aprendendo 
