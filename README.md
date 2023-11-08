@@ -39,6 +39,7 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
 - repeat-linear-gradient ou repeat-radial-gradient sao outras funçoes de fundo cor, listras.
 - dica: da para colocar uma imagem sobre a outra.
 - background-size: que pode ter como atributos : auto(automatico) vai se ajustar automaticamente ao elemento, porem se a imagem for muito grande ela nao se adapta. cover(cobrir) ocupa todo o fundo do nosso elemento mesmo se a imagem for maior ou menor que o container, porém pode ser que ela corte um pouco da imagem original para caber dentro do container, tambem perde qualidade se a diferenca de tamanho for muito grande. contain redimenciona o tamanho da imagem para fazer ela aparecer inteira, cobre a parte que conseguir. pode ser utilizado com px e % também, com um unico valor exemplo 50% define a largura, a altura sera automatica, passando dois valores ocupara largura e altura, por exemplo 200px 250px, tomar cuidado para nao esticar muito a imagem, fazendo perder qualidade.
+- background-repeat essa propriedade define se a imagem deve-se repetir, verticalmente, horizontalmente, ou nao repetir, veja os atribuots dessa propriedade: background-repeat: repeat; (é o comportamento padrao, fazendo a imagem se repetir na horizontal e na vertical. 
 
 # JAVASCRIPT
 ## Aprendendo 
