@@ -59,6 +59,8 @@ Tesmo a propriedade font-weight: normal; é a espessura do letra, tendo o normal
 - @import url() é outra maneira de importar letras de um servidor externo ou local, exemplo: @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');. Também é possivel pela tag link.
 - font-size: essa propriedade define o tamanho da fonte, exemplos: font-size: 20px; font-size: xx-small; / x-small; / small; / medium; / large; / x-large; / xx-large;. O elemento filho costuma pegar o font-size do elemento pai, e dois atributos para trabalhar com elementos filhos pode ser o font-size: smaller; ou font-size: larger; onde ele se baseia no pai para mudar o tamanho do elemento filho.
 - font-style: essa propriedade define o estilo da fonte, sendo eses estilos: normal, italic e oblique.
+- font-variant: essa propriedade pode definir se nosso texto deve ser exibido em formato versalete (small caps), torna o texto em letras maiúsculas porem diminui o tamanho das letras.
+- font-stretch: deixa o texto mais estreito, condensado, ou mais largo expandido, essa propriedade só funciona se a fonte escolhida tiver o suporte para ela. Tendo como atributos: ultra-condensed, extra-condensed, semi-condensed, expanded, extra-expanded, ultra-expanded.
 
 # JAVASCRIPT
 ## Aprendendo 
