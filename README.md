@@ -55,6 +55,8 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
 - font-family essa é a propriedade que permite definir qual fonte nos queremos aplicar nos textos, definindo uma fonte especifica ou um, grupo de familia de fontes, exemplos: font-family: sans-serif; , font-family: cursive; font-family: "Times New Roman", "Arial", sans-serif; (ele tentara aplicar a times new roman, caso de algum erro aplicará a Arial, se mesmo assim nao aplicar, ira aplicar a sans-serif.
 - @Font-Face permite aplicar uma fonte personalizada que nao está pré instalada no nosso sistema operacional, exemplos: @font-face {  (nomeia a fonte que estamos criando) font-family: Roboto;  
  src: local()(procura na propia maquina do usuario para ver se ja tem a fonte instalada, caso nao esteja ele vai para o url >), url("../fonts/Roboto-Regular.ttf");(neste url eu posso pegar de um servidor externo, ou direto de um arquivo meu já baixado)  }. Tesmo a propriedade font-weight: normal; é a espessura do letra, tendo o normal, bold, e lighter.
+- @import url() é outra maneira de importar letras de um servidor externo ou local, exemplo: @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');. Também é possivel pela tag link.
+- font-size: essa propriedade define o tamanho da fonte, exemplos: font-size: 20px; font-size: xx-small; / x-small; / small; / medium; / large; / x-large; / xx-large;. O elemento filho costuma pegar o font-size do elemento pai, e dois atributos para trabalhar com elementos filhos pode ser o font-size: smaller; ou font-size: larger; onde ele se baseia no pai para mudar o tamanho do elemento filho.
 
 # JAVASCRIPT
 ## Aprendendo 
