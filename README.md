@@ -62,6 +62,14 @@ Tesmo a propriedade font-weight: normal; é a espessura do letra, tendo o normal
 - font-variant: essa propriedade pode definir se nosso texto deve ser exibido em formato versalete (small caps), torna o texto em letras maiúsculas porem diminui o tamanho das letras.
 - font-stretch: deixa o texto mais estreito, condensado, ou mais largo expandido, essa propriedade só funciona se a fonte escolhida tiver o suporte para ela. Tendo como atributos: ultra-condensed, extra-condensed, semi-condensed, expanded, extra-expanded, ultra-expanded.
 - line-height: geralmente por padrao o seu atributo tem 1.2; essa propriedade define a altura da nossa linha. Da pra usar porcentagem tambem, o ideal é acima de 1.5 ou 100%.
+- font é a propriedade resumida shortcut, em uma unica linha de codigo, exemplo: font: 20px(tamanho da fonte) Arial, sans-serif italic small-caps bold (line-height)2; (talvez tenha que mudar a ordem dos elementos).
+ ## TEXTOS
+- text-transform: Essa propriedade é responsavél por definir quais caracteres vão estar em maiúsculo, minusculo, etc.. exemplo: text-transform: none;(padrao nao altera nada), text-transform: capitalize; ele vai transformar o primeiro caracter de cada palavra em caixa alto, text-transform: uppercase; transforma o texto totalmente em caixa alto, text-transform: lowercase; tudo em minúsculo. inherit(para herdar do elemento pai) e initial para setar o valor padrão.
+- text-align: Essa propriedade é responsavél por alinhar o nosso texto no nosso elemento, exemplos: text-align: left; / right / center / justify(evita sobrar espaços laterais).
+- text-decoration: Adiciona ou remove linhas no nosso texto, sejam linhas no meio, em cima ou em baixo. exemplos: text-decoration: none; , text-decoration: underline; , text-decoration: line-through; , text-decoration: overline;.  Text-decoration é um shortcut, então algumas propriedades separadas são: text-decoration-line: underline;(define a linha igual citado acima) , text-decoration-style: solid; / double / dotted / dashed / wavy. text-decoration-color: red; define a cor da linha. text-decoration-thickness: determina a espessura da linha, ex: text-decoration-thickness: 5px;
+
+
+
 
 # JAVASCRIPT
 ## Aprendendo 
