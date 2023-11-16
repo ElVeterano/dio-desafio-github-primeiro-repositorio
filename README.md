@@ -61,6 +61,7 @@ Tesmo a propriedade font-weight: normal; é a espessura do letra, tendo o normal
 - font-style: essa propriedade define o estilo da fonte, sendo eses estilos: normal, italic e oblique.
 - font-variant: essa propriedade pode definir se nosso texto deve ser exibido em formato versalete (small caps), torna o texto em letras maiúsculas porem diminui o tamanho das letras.
 - font-stretch: deixa o texto mais estreito, condensado, ou mais largo expandido, essa propriedade só funciona se a fonte escolhida tiver o suporte para ela. Tendo como atributos: ultra-condensed, extra-condensed, semi-condensed, expanded, extra-expanded, ultra-expanded.
+- font-weight: define a largura da fonte.
 - line-height: geralmente por padrao o seu atributo tem 1.2; essa propriedade define a altura da nossa linha. Da pra usar porcentagem tambem, o ideal é acima de 1.5 ou 100%.
 - font é a propriedade resumida shortcut, em uma unica linha de codigo, exemplo: font: 20px(tamanho da fonte) Arial, sans-serif italic small-caps bold (line-height)2; (talvez tenha que mudar a ordem dos elementos).
  ## TEXTOS
