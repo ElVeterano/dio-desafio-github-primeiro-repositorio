@@ -77,6 +77,8 @@ Tesmo a propriedade font-weight: normal; é a espessura do letra, tendo o normal
 - overflow: hidden; esconde o texto que passar dos limites do elemento.
 - text-overflow: clip;(padrao). text-overflow: ellipsis;(adiciona reticencias ao final do texto, sinalizando que há mais conteudo escondido. text-overflow: string; = text-overflow: 'Ver mais >';(mostra o Ver mais > ao final do texto mostrando que ha mais conteudo, detalhe importante funciona apenas no firefox).
 - box-shadow: Essa propriedade, aplica uma sombra ao nosso elemento, exemplo utilizando horizontal e vertical = box-shadow: 10px 15px; definindo cor a sombra = box-shadow: 30px 30px red; para melhorar o efeito da sombra deve-se usar o desfoque assim = box-shadow: 30px 30px 10px red;(seria o terceiro valor). Um quarto valor iria definir como a sombra deve ser propagada(aumenta ou diminiu o tamanho da sombra). Para definir uma sombra interna utiliza-se o inset, exemplo: box-shadow: inset 10px 10px 10px red;. É possivel ter varias camadas de sombra, separando por virgula, exemplo = box-shadow: inset 10px 10px 10px red, 20px 20px black;. É possivel aplicar sombras em imagens tambem, para uma utilização com imagens com fundo transparante deve-se utilizar a propriedade filter: drop-shadow(10px 10px 5px gray);.
+- text-shadow: adiciona efeitos de sombra nos textos, exemplo: text-shadow: 10px 10px;(horizontal e vertical, pega a cor do texto). Com desfoque e cor = text-shadow: 10px 10px 5px red;
+- opacity: define o nivel de opacidade(transparencia) de um elemento, de 0 até 1, sendo 0 o máximo de transparencia e 1 nada de transparencia. Exemplo = opacity: .5;(seria 50%).
 
 
 
