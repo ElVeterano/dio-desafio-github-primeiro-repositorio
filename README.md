@@ -83,6 +83,10 @@ Tesmo a propriedade font-weight: normal; é a espessura do letra, tendo o normal
 ##Redefinindo as propriedades padrões dos navegadores
 - Para evitar conflitos com os navegadores, devemos redefinir as configurações dos mesmos, utilizando a tecnica ResetCSS, que cria uma folha de estilos para sobrepor as propriedades que os navegadores colocam por padrão, isso vai ajudar com que o site tenha o mesmo design em todos os navegadores. A forma mais comum é utilizando o seletor universal * { padding: 0; margin: 0; vertical-align: baseline; list-style: none; border: 0; } Na internet voce pode encontrar direntes arquivos que voce pode usar como reset tambem. Indica-se fazer esse reset em uma folha css separada e traze-la para o seu style.css através do @import url('....');.
 
+## NORMALIZE CSS
+- o normalize css serve para tirar os estilos padrões dos diversos navegadores, assim evitando problemas com margin, estilos pre definidos entre outros. Então ele é um css que padroniza todo o estilo inicial, fazendo ficar igual nos diversos navegadores. Existem varios tipos, geralmente usamos o CDN que é um servidor disponivel para qualquer pessoa utilizar.
+- [CDN NORMALIZE CSS](cdnjs.cloudflare.com/libraries/normalize)
+
 
 
 # JAVASCRIPT
