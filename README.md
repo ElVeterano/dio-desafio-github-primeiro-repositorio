@@ -86,7 +86,7 @@ Tesmo a propriedade font-weight: normal; é a espessura do letra, tendo o normal
 ## NORMALIZE CSS
 - o normalize css serve para tirar os estilos padrões dos diversos navegadores, assim evitando problemas com margin, estilos pre definidos entre outros. Então ele é um css que padroniza todo o estilo inicial, fazendo ficar igual nos diversos navegadores. Existem varios tipos, geralmente usamos o CDN que é um servidor disponivel para qualquer pessoa utilizar.
 - [CDN NORMALIZE CSS](https://cdnjs.com/libraries/normalize)
-
+- Após acessar o link copie a link tag e cole no seu head no html.
 
 
 # JAVASCRIPT
