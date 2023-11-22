@@ -112,6 +112,7 @@ Copair um array : var copiar = frutas.slice();.
   . Acessar um item (index) do Array exemplo: var primeiro = frutas[0]; var ultimo = frutas[frutas.length - 1];. Para ver o tamanho do array(lista) = console.log(alunos.length);. Para procurar a posição de um item especifico dentro da array : const pos = frutas.indexOf("Banana"); por exemplo < . Para percorrer o array com For (estrutura de repetição), deve-se criar uma variavel para servir como index que vai ser o controlador do número de repetições a serem feitas na lista por exemplo : for(let i = 0; i < array.lenght; i++) { código } (o i++ é a mesma coisa que fazer i = i + 1, entao ele incrementa 1 no valor do index, fazendo o código seguir executando cada elemento. Separando por virgula conseguimos trabalhar com duas camadas de imagem por exemplo ou mais : background-size: 200px 100px, cover; aplicaria para duas imagens a primeira com 200px 100px e a outra com cover.
 - Uma boa pratica é quando for fazer um site começar pela parte mobile, e depois ir aumentando, evitando gerar mais códigos css, entçao mobile first.
 - print(`${var}:`); resulta em 2: por exemplo, o ${} permite imprimir uma variavel dentro de um escopo de string, assim concatenando com a string. Detalhe deve se utilizar ` ` em vez de " " ou ' '.
-
+- Para fazer uma herança em javascript utiliza-se o __proto__: atributo; exemplo = const renan = { nome: 'renan', idade: 30, __proto__: pessoa } const pessoa = { genero: 'masculino' }, então um console.log(renan.genero); conseguiria acessar e imprmiria masculino.
+ 
 
 
