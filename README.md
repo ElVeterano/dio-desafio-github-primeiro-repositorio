@@ -113,6 +113,8 @@ Copair um array : var copiar = frutas.slice();.
 - Uma boa pratica é quando for fazer um site começar pela parte mobile, e depois ir aumentando, evitando gerar mais códigos css, entçao mobile first.
 - print(`${var}:`); resulta em 2: por exemplo, o ${} permite imprimir uma variavel dentro de um escopo de string, assim concatenando com a string. Detalhe deve se utilizar ` ` em vez de " " ou ' '.
 - Para fazer uma herança em javascript utiliza-se o __proto__: atributo; exemplo = const renan = { nome: 'renan', idade: 30, __proto__: pessoa } const pessoa = { genero: 'masculino' }, então um console.log(renan.genero); conseguiria acessar e imprimiria masculino, isso é orientação a protótipo.
+### Manipulação de listas
+- e
  
 
 
