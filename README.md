@@ -116,6 +116,7 @@ Copair um array : var copiar = frutas.slice();.
 ## Manipulação de listas
 - forEach (para cada): é uma forma de percorrer a lista orientada a funções, percorrendo a lista (semelhante ao for). Exemplo: lista.forEach((value, i, listRef) => { console.log(value, i, listRef); }), considerando a const lista = [1, 2, 3,]; este for each imprimiria: 1 0 [1, 2, 3] 2 1 [1, 2, 3] 3 2 [1, 2, 3]. Detalhe importante, o forEach é um pouco mais lento que o for tradicional, porem com menos codigo, se for trabalhar com uma lista muuuito grande é recomendando utilizar for.
 - filter (filtrar): (semelhante ao forEach) com o filter a gente filtra os elementos que queremos da lista, assim formando uma nova lista sem alterar a lista original. Exemplo: considerando a const lista = [1, 2, 3, 4, 5, 6]; poderiamos fazer por exemplo: const listaDeNumerosPares = lista.filter((element) => { return (element % 2 === 0) }); console.log(lista); console.log(listaDeNumerosPares); este código imprimiria = [1, 2, 3, 4, 5, 6](lista original) [2, 4, 6](nova lista).
+- map: o método map é utilizado para converter uma lista em outro objeto por exemplo, uma função que esta com objetivo de tranformação de um elemento em outro. Exemplo: considerando class Pessoa { constructor(nome) { this.name = nome } } e const lista = [new Pessoa('Guilherme'), new Pessoa('Heloisa'), new Pessoa('Renan')]; poderiamos fazer: const listaNomes = lista.**map**
  
 
 
