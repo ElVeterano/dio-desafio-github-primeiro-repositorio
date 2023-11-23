@@ -114,7 +114,7 @@ Copair um array : var copiar = frutas.slice();.
 - print(`${var}:`); resulta em 2: por exemplo, o ${} permite imprimir uma variavel dentro de um escopo de string, assim concatenando com a string. Detalhe deve se utilizar ` ` em vez de " " ou ' '.
 - Para fazer uma herança em javascript utiliza-se o __proto__: atributo; exemplo = const renan = { nome: 'renan', idade: 30, __proto__: pessoa } const pessoa = { genero: 'masculino' }, então um console.log(renan.genero); conseguiria acessar e imprimiria masculino, isso é orientação a protótipo.
 ## Manipulação de listas
-- e
+- Foreach (para cada): é uma forma de percorrer a lista orientada a funções, percorrendo a lista (semelhante ao for). Exemplo: lista.forEach((value, i, listRef) => { console.log(value, i, listRef); }), considerando a const lista = [1, 2, 3,]; este for each imprimiria: 1 0 [1, 2, 3] 2 1 [1, 2, 3] 3 2 [1, 2, 3]. Detalhe importante, o forEach é um pouco mais lento que o for tradicional, porem com menos codigo, se for trabalhar com uma lista muuuito grande é recomendando utilizar for.
  
 
 
