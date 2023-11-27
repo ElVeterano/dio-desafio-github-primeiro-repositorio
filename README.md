@@ -10,7 +10,7 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  git log - Lista histórico de commits
  git add <nome-arquivo> - Adiciona o arquivo do palco(stage)
  git reset <nome-arquivo> - Remove o arquivo do palco(stage)
- git commit m"mensagem" - Realiza o commit das modificações
+ git commit -m "mensagem" - Realiza o commit das modificações
  git branch - Lista todas as branch locais 
  git branch <nome-da-branch> - Cria uma nova branch 
  git checkout <nome-da-branch> - Entra na branch
