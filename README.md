@@ -17,6 +17,14 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  git pull original <nome-da-branch> - Pucha as modificações
  git push origin <nome-da-branch> - Envia as modificações para o repositorio remoto
 
+ ##Mandando arquivos/pastas/documentos do computador local para o github, faça os seguintes passo:
+ 1: git bash here no local da pasta em que se encontra os rquivos.
+ 2: git init para iniciar o git
+ 3: git status para analisar oque foi modificado e ainda nao foi adicinado.
+ 4: git add nomedoarquivo para adicionar o arquivo desejado, adicione todos que for mandar um a um.
+ 5: git commit -m "mensagem" para fazer o commit das modificações.
+ 6: git push origin <nome-da-branch> - Para enviar as modificações para o repositorio remoto.
+
 ```
 
 
