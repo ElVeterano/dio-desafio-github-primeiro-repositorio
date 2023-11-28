@@ -16,6 +16,7 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  git checkout <nome-da-branch> - Entra na branch
  git pull original <nome-da-branch> - Pucha as modificações
  git push origin <nome-da-branch> - Envia as modificações para o repositorio remoto
+ git stash : deleta arquivos cuidado
 
  ##Mandando arquivos/pastas/documentos do computador local para o github, faça os seguintes passo:
  1: git bash here no local da pasta em que se encontra os rquivos.
