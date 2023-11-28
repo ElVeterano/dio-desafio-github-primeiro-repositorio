@@ -23,7 +23,8 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  3: git status para analisar oque foi modificado e ainda nao foi adicinado.
  4: git add nomedoarquivo para adicionar o arquivo desejado, adicione todos que for mandar um a um.
  5: git commit -m "mensagem" para fazer o commit das modificações.
- 6: git push origin <nome-da-branch> - Para enviar as modificações para o repositorio remoto.
+ 6: git remote add origin <REMOTE_URL> colocar o url do repositorio remoto
+ 7: git push origin <nome-da-branch> - Para enviar as modificações para o repositorio remoto.
 
 ```
 
