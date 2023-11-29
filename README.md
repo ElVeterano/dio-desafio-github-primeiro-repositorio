@@ -25,7 +25,8 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  4: git add nomedoarquivo para adicionar o arquivo desejado, adicione todos que for mandar um a um.
  5: git commit -m "mensagem" para fazer o commit das modificações.
  6: git remote add origin <REMOTE_URL> colocar o url do repositorio remoto
- 7: git push origin <nome-da-branch> - Para enviar as modificações para o repositorio remoto.
+ 7: git pull origin main --allow-unrelated-histories Esse comando permite que o Git una as duas histórias, mesmo que elas pareçam não ter relação direta. Depois disso, revise os arquivos para resolver qualquer   conflito que possa ter ocorrido e faça um novo commit com as alterações.
+ 8: git push origin <nome-da-branch> - Para enviar as modificações para o repositorio remoto.
 
 ```
 
