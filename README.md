@@ -20,6 +20,7 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  git revert <chave do commit ID> - Reverte um commit, desfaz oque este commit tenha feito.
  git reset --hard <chave do commit ID, anterior, que seria a versão que a gente quer voltar> - DELETA um commit e reverte suas alterações.
  git commit -amend  - Altera o ultimo commit.
+.gitignore - ignora os arquivos que estiverem dentro deste gitignore por exemplo: arquivo.txt /temp /pasta (separando por enter cada item)
 
  ##Mandando arquivos/pastas/documentos do computador local para o github, faça os seguintes passo:
  1: git bash here no local da pasta em que se encontra os rquivos.
