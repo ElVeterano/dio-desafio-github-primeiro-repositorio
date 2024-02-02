@@ -19,7 +19,7 @@ Repositório para armazenar e compartilhar informações que estou aprendendo ao
  git stash : deleta arquivos cuidado
  git revert <chave do commit ID> - Reverte um commit, desfaz oque este commit tenha feito.
  git reset --hard <chave do commit ID, anterior, que seria a versão que a gente quer voltar> - DELETA um commit e reverte suas alterações.
- git commit -amend -m "mensagem nova" - Altera a mensagem do ultimo commit.
+ git commit -amend  - Altera o ultimo commit.
 
  ##Mandando arquivos/pastas/documentos do computador local para o github, faça os seguintes passo:
  1: git bash here no local da pasta em que se encontra os rquivos.
